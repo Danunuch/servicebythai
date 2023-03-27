@@ -1,0 +1,117 @@
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+ .owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-nav [class*='owl-'] {
+    color: #dddddd;
+    font-size: 45px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; }
+    .owl-theme .owl-nav [class*='owl-']:hover {
+      background: transparent;
+      color: #cccccc;
+      text-decoration: none; }
+      .owl-theme .owl-nav .disabled {
+        opacity: 0.5;
+        cursor: default; }
+
+        .owl-theme .owl-nav.disabled + .owl-dots {
+          margin-top: 10px; }
+
+          .owl-theme .owl-dots {
+            text-align: center;
+            -webkit-tap-highlight-color: transparent; }
+            .owl-theme .owl-dots .owl-dot {
+              display: inline-block;
+              zoom: 1;
+              *display: inline; }
+              .owl-theme .owl-dots .owl-dot span {
+                width: 10px;
+                height: 10px;
+                margin: 5px;
+                background: #c0c0c0;
+                display: block;
+                -webkit-backface-visibility: visible;
+                transition: opacity 200ms ease;
+                border-radius: 0%; }
+                .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+                  background: #aaaaaa; }
+
+
+
+
+
+
+                  .owl-prev {
+                    position: absolute;
+                    z-index: 99;
+                    top: 40%;
+                    bottom: 0;
+                    right: auto;
+                    left: -35px;
+                    font-size: 40px;
+                    color: #fff;
+                    text-align: center;
+                    margin: 5px;
+                    padding: 3px 10px;
+                    background-color: #000000;
+                    width: 33px;
+                    height: 50px;
+                    filter: alpha(opacity=50);
+                    opacity: .9;
+
+                  }
+                  .owl-prev:hover {
+
+                    opacity: 1;
+
+                  }
+                  .owl-next {
+                    position: absolute;
+                    z-index: 99;
+                    top: 40%;
+                    bottom: 0;
+                    right: -35px;
+                    left: auto;
+                    font-size: 40px;
+                    color: #fff;
+                    text-align: center;
+                    margin: 5px;
+                    padding: 3px 10px;
+                    background-color: #000000;
+                    width: 33px;
+                    height: 50px;
+                    filter: alpha(opacity=50);
+                    opacity: .9;
+
+                  }
+                  .owl-next:hover {
+
+                    opacity: 1;
+
+                  }
+
+
+
+
+
+
+                  @media (max-width: 1024px) {
+                    .owl-nav{
+                      display: none;
+                    }
+
+
+                  }
